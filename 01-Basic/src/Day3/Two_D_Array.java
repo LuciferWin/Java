@@ -16,18 +16,18 @@ public class Two_D_Array {
 		
 		for(var r = 0; r < 3 ; r++) {
 			for(var c = 0; c < 5 ; c++) {
-				System.out.println(marks[r][c] + "\t");
+				System.out.print(marks[r][c] + "\t");
 			}
 			System.out.println();
 		}
 		
-		System.out.println("\t----- For Each -----");
-		for(int [] row : marks) {
-			for(int col : row) {
-				System.out.print(col + "\t");
-			}
-			System.out.println();
-		}
+//		System.out.println("\t----- For Each -----");
+//		for(int [] row : marks) {
+//			for(int col : row) {
+//				System.out.print(col + "\t");
+//			}
+//			System.out.println();
+//		}
 		
 //		System.out.println(Arrays.deepToString(marks));
 		
