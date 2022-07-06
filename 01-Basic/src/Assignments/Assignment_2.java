@@ -60,6 +60,7 @@ public class Assignment_2 {
 		double rate = sc.nextDouble();
 		
 		System.out.print("\tTotal Price in MMK is : " + (rate * laptopList[h][g]) + " kyats");
+		sc.close();
 		
 	}
 

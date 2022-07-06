@@ -1,6 +1,5 @@
 package Assignments;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Assignment_1_1 {
@@ -36,7 +35,7 @@ public class Assignment_1_1 {
 		System.out.println("Numbers of zero : " + zero);
 		System.out.println("Numbers of positive number : " + positive);
 		System.out.println("Numbers of negative number : " + negative);
-
+		sc.close();
 	}
 
 }

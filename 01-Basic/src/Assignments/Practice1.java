@@ -33,7 +33,6 @@ public class Practice1 {
 			System.out.println("Monthly Income : " + income);
 			System.out.println("Age : " + age);
 		}
-		
 	}
 
 }
