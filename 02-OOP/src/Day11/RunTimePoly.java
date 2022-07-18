@@ -10,6 +10,8 @@ public class RunTimePoly {
 		
 		dev = new BackendDeveloper();
 		dev.work();
+		
+//		Concrete or Instance Class
 	}
 }
 
@@ -32,3 +34,14 @@ class BackendDeveloper extends Developer {
 		System.out.println("Work with backend technologies");
 	}
 }
+
+abstract class A {
+	abstract void test();
+}
+
+class B extends A {
+	void test(){
+		
+	}
+}
+
