@@ -4,7 +4,7 @@ public class Two_D_Array {
 
 	public static void main(String[] args) {
 		
-		int[] [] marks = {
+		int[][] marks = {
 				{65,50,64,43,33},
 				{53,45,34,49,24},
 				{56,35,53,35,23}
